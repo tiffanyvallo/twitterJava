@@ -29,35 +29,52 @@ Then, in the Gradle sidebar:
 * To run the tests: `Twitter -> Tasks -> Verification -> Test`
 * To run the server: `Twitter -> Tasks -> Application -> bootRun`
 
-If you encounter any problems, they are not intended. Contact your coach for advice.
+## Approach and Planning
 
-## Upstream Documentation
+### User Stories
+```
+TO BEGIN
 
-### Reference Documentation
-For further reference, please consider the following sections:
+As a user
+So that I can know what website this is
+I want to see the 'Twitter' heading on the home page
 
-* [Official Gradle documentation](https://docs.gradle.org)
-* [Spring Boot Gradle Plugin Reference Guide](https://docs.spring.io/spring-boot/docs/2.5.2/gradle-plugin/reference/html/)
-* [Create an `OCI` image](https://docs.spring.io/spring-boot/docs/2.5.2/gradle-plugin/reference/html/#build-image)
-* [Spring Web](https://docs.spring.io/spring-boot/docs/2.5.2/reference/htmlsingle/#boot-features-developing-web-applications)
-* [Spring Data JPA](https://docs.spring.io/spring-boot/docs/2.5.2/reference/htmlsingle/#boot-features-jpa-and-spring-data)
+As a user
+So that I can let people know what I am doing
+I want to post a message (tweet) to twitter
 
-### Guides
-The following guides illustrate how to use some features concretely:
+As a user
+So that I can see what others are saying
+I want to see all tweets in reverse chronological order
 
-* [Building a RESTful Web Service](https://spring.io/guides/gs/rest-service/)
-* [Serving Web Content with Spring MVC](https://spring.io/guides/gs/serving-web-content/)
-* [Building REST services with Spring](https://spring.io/guides/tutorials/bookmarks/)
-* [Accessing Data with JPA](https://spring.io/guides/gs/accessing-data-jpa/)
+As a user
+So that I can better appreciate the context of a twitter
+I want to see the time at which it was posted
 
+As a user
+So that I can post messages on twitter as me
+I want to sign up for twitter
+```
+```
+TO PROGRESS
 
+As a user
+So that only I can post messages on Twitter as me
+I want to log in to Twitter
 
-<!-- BEGIN GENERATED SECTION DO NOT EDIT -->
+As a user
+So that I can avoid others posting messages on Twitter as me
+I want to log out of Twitter
 
----
+```
+```
+TO ADVANCE
 
-**How was this resource?**  
-[😫](https://airtable.com/shrUJ3t7KLMqVRFKR?prefill_Repository=makersacademy/three_ways&prefill_File=java/twitter_seed/README.md&prefill_Sentiment=😫) [😕](https://airtable.com/shrUJ3t7KLMqVRFKR?prefill_Repository=makersacademy/three_ways&prefill_File=java/twitter_seed/README.md&prefill_Sentiment=😕) [😐](https://airtable.com/shrUJ3t7KLMqVRFKR?prefill_Repository=makersacademy/three_ways&prefill_File=java/twitter_seed/README.md&prefill_Sentiment=😐) [🙂](https://airtable.com/shrUJ3t7KLMqVRFKR?prefill_Repository=makersacademy/three_ways&prefill_File=java/twitter_seed/README.md&prefill_Sentiment=🙂) [😀](https://airtable.com/shrUJ3t7KLMqVRFKR?prefill_Repository=makersacademy/three_ways&prefill_File=java/twitter_seed/README.md&prefill_Sentiment=😀)  
-Click an emoji to tell us.
+As a user
+So that I can have a conversation
+I want to reply to a tweet from another user
 
-<!-- END GENERATED SECTION DO NOT EDIT -->
+As a user
+So that I can clearly read and use the service
+I want to see a well-designed user interface
+```
