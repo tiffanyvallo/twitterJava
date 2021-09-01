@@ -78,3 +78,25 @@ As a user
 So that I can clearly read and use the service
 I want to see a well-designed user interface
 ```
+
+### Domain Model
+
+<details>
+<summary>Noun Owner/Property table</summary>
+<br>
+<img src="public/images/dm 1 java.png">
+</details>
+
+<details>
+<summary>Action Owned by Table</summary>
+<br>
+<img src="public/images/dm 2 java.png">
+</details>
+
+
+<details>
+<summary>Action Property Table</summary>
+<br>
+<img src="public/images/dm 3 java.png">
+</details>
+
